@@ -23,6 +23,9 @@ tecnologia da disciplina daquele semestre.
 |---|---|---|---|
 | [**flutter**](https://github.com/ecomap-devs/flutter) | O app Android | Flutter · Dart | ✅ Em desenvolvimento, com CI e APK a cada PR |
 | **web** | O site, no endereço principal | Next.js · TypeScript | 🚧 A criar |
+| [**semestre-1-html**](https://github.com/ecomap-devs/semestre-1-html) | O site do 1º semestre | HTML · Tailwind · Leaflet | 📦 Entregue em 2025/1 |
+| [**semestre-2-csharp**](https://github.com/ecomap-devs/semestre-2-csharp) | O site do 2º semestre | C# · ASP.NET Core MVC · SQL Server | 📦 Entregue em 2025/2 |
+| [**semestre-3-react**](https://github.com/ecomap-devs/semestre-3-react) | O site do 3º semestre | React · Vite · Firebase | 📦 Entregue em 2026/1 |
 | [**.github**](https://github.com/ecomap-devs/.github) | Esta página | Markdown | ✅ |
 
 ## 🧭 Como as partes se encaixam
@@ -52,10 +55,10 @@ repositório `flutter`.
 
 | Semestre | Tecnologia | O que o projeto ganhou |
 |---|---|---|
-| 1º | HTML puro | A primeira versão do site |
-| 2º | C# | O site em MVC, com banco de dados |
-| 3º | React | O site com mapa, gráficos, login e avaliações ([JoaoAlane/EcoMapBrasil](https://github.com/JoaoAlane/EcoMapBrasil)) |
-| 4º | Flutter + Next.js | O app Android, e o site portado para Next.js com TypeScript |
+| 1º · 2025/1 | HTML puro | A primeira versão do site, com o mapa em Leaflet ([semestre-1-html](https://github.com/ecomap-devs/semestre-1-html)) |
+| 2º · 2025/2 | C# | O site em ASP.NET Core MVC, com banco, login, avaliações e painel de administração ([semestre-2-csharp](https://github.com/ecomap-devs/semestre-2-csharp)) |
+| 3º · 2026/1 | React | O site com mapa, gráficos, catálogo de espécies e avaliações em tempo real ([semestre-3-react](https://github.com/ecomap-devs/semestre-3-react)) |
+| 4º · 2026/2 | Flutter + Next.js | O app Android, e o site portado para Next.js com TypeScript ([flutter](https://github.com/ecomap-devs/flutter)) |
 
 ## 👥 Equipe
 
