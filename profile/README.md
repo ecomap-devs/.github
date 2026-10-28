@@ -11,7 +11,8 @@
 
 O **EcoMapBrasil** mostra num lugar só **onde** o desmatamento acontece nos seis biomas
 brasileiros, **quais espécies** estão ameaçadas e o que dá para fazer a respeito. Mapa
-com os alertas do DETER-B/INPE, gráficos, catálogo de fauna e avaliações da comunidade.
+com os alertas do DETER-B/INPE e os biomas pelo limite do IBGE, gráficos, catálogo de
+fauna, identificação de animal por foto e avaliações da comunidade.
 
 É o Projeto Interdisciplinar de um grupo de cinco do curso de **Desenvolvimento de
 Software Multiplataforma** da FATEC, e cresce um semestre por vez, cada um com a
@@ -22,7 +23,7 @@ tecnologia da disciplina daquele semestre.
 | Repositório | O que é | Stack | Estado |
 |---|---|---|---|
 | [**semestre-4-flutter**](https://github.com/ecomap-devs/semestre-4-flutter) | O app Android | Flutter · Dart | ✅ Em desenvolvimento, com CI e APK a cada PR |
-| [**semestre-4-nextjs**](https://github.com/ecomap-devs/semestre-4-nextjs) | O site, no endereço principal | Next.js · TypeScript | 🚧 Base pronta, porte em andamento |
+| [**semestre-4-nextjs**](https://github.com/ecomap-devs/semestre-4-nextjs) | O site, no endereço principal | Next.js · TypeScript | ✅ No ar desde 01/10/2026, publicado a cada merge |
 | [**semestre-1-html**](https://github.com/ecomap-devs/semestre-1-html) | O site do 1º semestre | HTML · Tailwind · Leaflet | 📦 Entregue em 2025/1 |
 | [**semestre-2-csharp**](https://github.com/ecomap-devs/semestre-2-csharp) | O site do 2º semestre | C# · ASP.NET Core MVC · SQL Server | 📦 Entregue em 2025/2 |
 | [**semestre-3-react**](https://github.com/ecomap-devs/semestre-3-react) | O site do 3º semestre | React · Vite · Firebase | 📦 Entregue em 2026/1 |
@@ -42,9 +43,11 @@ flowchart LR
         auth[🔐 Firebase Auth]
         fs[(🗄️ Firestore)]
         sb[(🖼️ Supabase Storage)]
+        fn["⚡ Edge Function<br/>identificar-animal"]
     end
-    web --> auth & fs & sb
-    app --> auth & fs & sb
+    web --> auth & fs & sb & fn
+    app --> auth & fs & sb & fn
+    fn --> gemini["✨ Gemini"]
 ```
 
 O site e o app falam com o **mesmo** backend: a conta é a mesma, e uma avaliação feita
