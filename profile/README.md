@@ -72,3 +72,7 @@ repositório `semestre-4-flutter`.
 <p align="center">
   🌐 <a href="https://ecomapbrasil-17756.web.app"><b>ecomapbrasil-17756.web.app</b></a>
 </p>
+
+<p align="center">
+  <a href="https://ecomapbrasil-17756.web.app/privacidade">Política de privacidade</a> · <a href="https://ecomapbrasil-17756.web.app/termos">Termos de uso</a>
+</p>
