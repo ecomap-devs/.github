@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="arte/banner.svg" alt="EcoMapBrasil — os alertas de desmatamento do DETER-B desenhados como mapa, ao lado do título" width="100%">
+  <img src="arte/banner.svg" alt="EcoMapBrasil — os alertas de desmatamento do DETER desenhados como mapa, ao lado do título" width="100%">
 </p>
 
 <p align="center">
@@ -11,8 +11,10 @@
 
 O **EcoMapBrasil** mostra num lugar só **onde** o desmatamento acontece nos seis biomas
 brasileiros, **quais espécies** estão ameaçadas e o que dá para fazer a respeito. Mapa
-com os alertas do DETER-B/INPE e os biomas pelo limite do IBGE, gráficos, catálogo de
-fauna, identificação de animal por foto e avaliações da comunidade.
+com os alertas do DETER/INPE do último ano e os biomas pelo limite do IBGE, o
+desmatamento medido pelo PRODES/INPE, catálogo de fauna com o status no Brasil (lista
+nacional do MMA) e no mundo (IUCN), quiz, os canais oficiais de denúncia, identificação
+de animal por foto e avaliações da comunidade.
 
 É o Projeto Interdisciplinar de um grupo de cinco do curso de **Desenvolvimento de
 Software Multiplataforma** da FATEC, e cresce um semestre por vez, cada um com a
@@ -61,7 +63,7 @@ repositório `semestre-4-flutter`.
 | 1º · 2025/1 | HTML puro | A primeira versão do site, com o mapa em Leaflet ([semestre-1-html](https://github.com/ecomap-devs/semestre-1-html)) |
 | 2º · 2025/2 | C# | O site em ASP.NET Core MVC, com banco, login, avaliações e painel de administração ([semestre-2-csharp](https://github.com/ecomap-devs/semestre-2-csharp)) |
 | 3º · 2026/1 | React | O site com mapa, gráficos, catálogo de espécies e avaliações em tempo real ([semestre-3-react](https://github.com/ecomap-devs/semestre-3-react)) |
-| 4º · 2026/2 | Flutter + Next.js | O app Android, e o site portado para Next.js com TypeScript ([semestre-4-flutter](https://github.com/ecomap-devs/semestre-4-flutter) e [semestre-4-nextjs](https://github.com/ecomap-devs/semestre-4-nextjs)) |
+| 4º · 2026/2 | Flutter + Next.js | O app Android e o site portado para Next.js com TypeScript ([semestre-4-flutter](https://github.com/ecomap-devs/semestre-4-flutter) e [semestre-4-nextjs](https://github.com/ecomap-devs/semestre-4-nextjs)). Os valores de referência herdados viraram dados reais: PRODES e DETER (INPE), lista nacional do MMA e IUCN, que o site atualiza todo mês |
 
 ## 👥 Equipe
 
@@ -69,4 +71,8 @@ repositório `semestre-4-flutter`.
 
 <p align="center">
   🌐 <a href="https://ecomapbrasil-17756.web.app"><b>ecomapbrasil-17756.web.app</b></a>
+</p>
+
+<p align="center">
+  <a href="https://ecomapbrasil-17756.web.app/privacidade">Política de privacidade</a> · <a href="https://ecomapbrasil-17756.web.app/termos">Termos de uso</a>
 </p>
