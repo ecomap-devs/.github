@@ -24,7 +24,7 @@ tecnologia da disciplina daquele semestre.
 
 | Repositório | O que é | Stack | Estado |
 |---|---|---|---|
-| [**semestre-4-flutter**](https://github.com/ecomap-devs/semestre-4-flutter) | O app Android | Flutter · Dart | ✅ Em desenvolvimento, com CI e APK a cada PR |
+| [**semestre-4-flutter**](https://github.com/ecomap-devs/semestre-4-flutter) | O app Android | Flutter · Dart | ✅ Em desenvolvimento, com CI e APK a cada PR. [Baixe a última versão](https://github.com/ecomap-devs/semestre-4-flutter/releases/latest) |
 | [**semestre-4-nextjs**](https://github.com/ecomap-devs/semestre-4-nextjs) | O site, no endereço principal | Next.js · TypeScript | ✅ No ar desde 01/10/2026, publicado a cada merge |
 | [**semestre-1-html**](https://github.com/ecomap-devs/semestre-1-html) | O site do 1º semestre | HTML · Tailwind · Leaflet | 📦 Entregue em 2025/1 |
 | [**semestre-2-csharp**](https://github.com/ecomap-devs/semestre-2-csharp) | O site do 2º semestre | C# · ASP.NET Core MVC · SQL Server | 📦 Entregue em 2025/2 |
