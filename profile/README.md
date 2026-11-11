@@ -70,9 +70,9 @@ repositório `semestre-4-flutter`.
 **Vinicius** · **Bruno** · **Cesar** · **João Flávio** · **João Gabriel**
 
 <p align="center">
-  🌐 <a href="https://ecomapbrasil-17756.web.app"><b>ecomapbrasil-17756.web.app</b></a>
+  🌐 <a href="https://ecomapbrasil.web.app"><b>ecomapbrasil.web.app</b></a>
 </p>
 
 <p align="center">
-  <a href="https://ecomapbrasil-17756.web.app/privacidade">Política de privacidade</a> · <a href="https://ecomapbrasil-17756.web.app/termos">Termos de uso</a>
+  <a href="https://ecomapbrasil.web.app/privacidade">Política de privacidade</a> · <a href="https://ecomapbrasil.web.app/termos">Termos de uso</a>
 </p>
